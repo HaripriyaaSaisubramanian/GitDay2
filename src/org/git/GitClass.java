@@ -9,13 +9,19 @@ public class GitClass {
 		List<Integer> set = new LinkedList();
 		set.add(10);
 		set.add(30);
-		set.add(40);
+		set.add(30);
 		set.add(70);
 		set.add(100);
 		set.add(12);
 		System.out.println(set);
 		int size = set.size();
 		System.out.println(size);
+		Integer j = set.get(4);
+		System.out.println(j);
+		int f = set.indexOf(70);
+		System.out.println(f);
+		int l = set.lastIndexOf(30);
+		System.out.println(l);
 					
 		}
 
